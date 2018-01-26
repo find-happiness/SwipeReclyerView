@@ -80,7 +80,7 @@ public class TestFragment extends PagedItemFragment<MyModel> {
       ArrayList<MyModel> list = new ArrayList<>();
 
       if (loadPage < 5) {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
           MyModel item = new MyModel("名字：" + (loadPage *100 + i), i % 2 == 0 ? "男" : "女");
           list.add(item);
         }

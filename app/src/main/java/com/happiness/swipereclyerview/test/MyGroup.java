@@ -1,18 +1,16 @@
 package com.happiness.swipereclyerview.test;
 
-import java.util.List;
-
 /**
  * Created by Administrator on 2018/1/26.
  */
 
 public class MyGroup<E> {
   String group;
-  List<E> modelList;
+  E model;
 
-  public MyGroup(String group, List<E> modelList) {
+  public MyGroup(String group, E modelList) {
     this.group = group;
-    this.modelList = modelList;
+    this.model = modelList;
   }
 
   public String getGroup() {
@@ -23,11 +21,11 @@ public class MyGroup<E> {
     this.group = group;
   }
 
-  public List<E> getModelList() {
-    return modelList;
+  public E getModel() {
+    return model;
   }
 
-  public void setModelList(List<E> modelList) {
-    this.modelList = modelList;
+  public void setModel(E model) {
+    this.model = model;
   }
 }

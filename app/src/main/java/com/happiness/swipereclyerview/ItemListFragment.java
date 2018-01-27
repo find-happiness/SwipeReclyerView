@@ -175,6 +175,12 @@ public abstract class ItemListFragment<E> extends DialogFragment
    */
   protected abstract int getErrorMessage();
 
+  ///**
+  // * Get layout to display
+  // * @return layout 资源
+  // */
+  //protected abstract int getLayout();
+
   /**
    * Load data async via a Single.
    *
